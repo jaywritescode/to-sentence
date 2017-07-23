@@ -1,8 +1,11 @@
 {
   "name": "to_sentence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript port of the activesupport gem's #to_sentence method.",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.1.4"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -11,5 +14,14 @@
   "devDependencies": {
     "chai": "^4.1.0",
     "mocha": "^3.4.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jaywritescode/to_sentence/issues"
+  },
+  "keywords": [
+    "to-sentence",
+    "sentence",
+    "join",
+    "string"
+  ]
 }
