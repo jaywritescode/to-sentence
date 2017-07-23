@@ -1,5 +1,5 @@
 {
-  "name": "to_sentence",
+  "name": "to-sentence",
   "version": "1.0.2",
   "description": "A JavaScript port of the activesupport gem's #to_sentence method.",
   "main": "index.js",

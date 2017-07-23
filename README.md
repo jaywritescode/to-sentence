@@ -10,7 +10,7 @@ Also re-opens pendantic debate over the [Oxford comma](https://thewritelife.com/
 ### Install
 
 ```sh
-npm install to_sentence
+npm install to-sentence
 ```
 
 ### Usage
@@ -29,7 +29,7 @@ Passing any other option will cause the method to throw an Error.
 ### Examples
 
 ```js
-const to_sentence = require('to_sentence');
+const to_sentence = require('to-sentence');
 
 to_sentence([]);                
     // => ''
