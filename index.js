@@ -1,7 +1,7 @@
 'use strict';
 
-exports.to_sentence = function(arr, options) {
   const  defaults = {
+module.exports = function to_sentence(arr, options) {
     words_connector: ', ',
     two_words_connector: ' and ',
     last_word_connector: ', and ',
