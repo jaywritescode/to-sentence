@@ -1,13 +1,20 @@
 'use strict';
 
-  const  defaults = {
 module.exports = function to_sentence(arr, options) {
+  const defaults = {
     words_connector: ', ',
     two_words_connector: ' and ',
     last_word_connector: ', and ',
   };
+  const default_keys = Object.keys(defaults);
 
-  const opts = Object.assign({}, defaults, options || {})
+  Object.keys(options).forEach((key) => {
+    if (!default_keys.includes(key)) {
+      throw new Error(`Invalid option: ${key}`);
+    }
+  });
+
+  const opts = Object.assign({}, defaults, options)
 
   switch(arr.length) {
   case 0:
