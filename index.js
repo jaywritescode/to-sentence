@@ -5,6 +5,7 @@ module.exports = function to_sentence(arr, options) {
     words_connector: ', ',
     two_words_connector: ' and ',
     last_word_connector: ', and ',
+    locale: null,
   };
   const default_keys = Object.keys(defaults);
 
