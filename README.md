@@ -58,3 +58,4 @@ Pull requests welcome.
 ### License
 
 Copyright © 2017, Jay Harris.
+Released under the [ISC License](https://github.com/jaywritescode/to_sentence/blob/master/LICENSE.md).
